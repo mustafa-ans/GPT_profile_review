@@ -6,7 +6,7 @@ import openai
 class GptApp:
     def __init__(self):
         self.app = Flask(__name__)
-        self.openai_api_key = "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"
+        self.openai_api_key = "key"
         self.model_engine = "text-davinci-003"
         self.prompt_history = {}
 
